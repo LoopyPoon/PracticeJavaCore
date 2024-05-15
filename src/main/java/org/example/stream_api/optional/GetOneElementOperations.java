@@ -1,7 +1,7 @@
 package org.example.stream_api.optional;
 
+import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 
 public class GetOneElementOperations {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class GetOneElementOperations {
         System.out.println(integerList.stream().findFirst().orElseThrow());
 
         // Получение максимального элемента
-        System.out.println(integerList.stream().max((a, b) -> a - b).orElseThrow());
+        System.out.println(integerList.stream().max(Comparator.comparingInt(a -> a)).orElseThrow());
 
         // Получение минимального элемента
         System.out.println(integerList.stream().min((a, b) -> a - b).orElseThrow());
