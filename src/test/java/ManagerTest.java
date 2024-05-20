@@ -1,5 +1,5 @@
-import org.example.HashMap.Manager;
-import org.example.HashMap.User;
+import org.example.hashmap.Manager;
+import org.example.hashmap.User;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

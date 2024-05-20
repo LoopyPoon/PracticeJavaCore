@@ -1,4 +1,4 @@
-import org.example.HashMap.Product;
+import org.example.hashmap.Product;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

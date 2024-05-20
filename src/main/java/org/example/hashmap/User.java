@@ -1,4 +1,4 @@
-package org.example.HashMap;
+package org.example.hashmap;
 
 import java.time.LocalDate;
 import java.util.Objects;
